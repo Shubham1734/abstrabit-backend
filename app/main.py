@@ -32,7 +32,7 @@ app.include_router(dashboard_router)
 
 origins = [
     "http://localhost:5173",
-    "https://majestic-arithmetic-0f50cd.netlify.app/"
+    "https://majestic-arithmetic-0f50cd.netlify.app"
 ]
 
 app.add_middleware(
